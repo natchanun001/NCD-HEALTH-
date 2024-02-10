@@ -81,7 +81,7 @@ class Page1StarterPageScreen extends StatelessWidget {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: ((context) => page2LoginScreen())));
+                          builder: ((context) => LoginScreen())));
                 },
               ),
             ],

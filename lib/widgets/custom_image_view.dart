@@ -37,6 +37,8 @@ class CustomImageView extends StatelessWidget {
     this.placeHolder = 'assets/images/image_not_found.png',
   });
 
+  
+
   @override
   Widget build(BuildContext context) {
     return alignment != null

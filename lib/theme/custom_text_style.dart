@@ -20,6 +20,23 @@ class CustomTextStyles {
         fontSize: 16.fSize,
         fontWeight: FontWeight.w600,
       );
+  static get bodyLargeff454b60 => theme.textTheme.bodyLarge!.copyWith(
+        color: Color(0XFF454B60),
+      );
+  // Title text style
+  static get titleMediumInter => theme.textTheme.titleMedium!.inter.copyWith(
+        fontWeight: FontWeight.w700,
+      );
+  static get titleMediumInterOnPrimary =>
+      theme.textTheme.titleMedium!.inter.copyWith(
+        color: theme.colorScheme.onPrimary,
+        fontWeight: FontWeight.w700,
+      );
+  static get titleMediumInterff454b60 =>
+      theme.textTheme.titleMedium!.inter.copyWith(
+        color: Color(0XFF454B60),
+        fontWeight: FontWeight.w700,
+      );
 }
 
 extension on TextStyle {

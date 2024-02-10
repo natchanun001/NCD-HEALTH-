@@ -4,6 +4,6 @@ class ImageConstant {
 
   // Page 1 Starter Page images
   static String imgBonbonHandsWi = '$imagePath/img_bonbon_hands_wi.png';
-
+  static String imgGoogle = '$imagePath/img_image_2.png';
   static String imageNotFound = 'assets/images/image_not_found.png';
 }
